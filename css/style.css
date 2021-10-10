@@ -1,0 +1,38 @@
+body {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background: url(https://raw.githubusercontent.com/jnutt367/RESOLUTIONS/main/moon-icegif-2.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:769px) {
+    .wine {
+        margin-left: 2rem;
+        width: 400px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    .dine {
+        margin-left: 2rem;
+        width: 400px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    .special-times {
+        margin-left: 2rem;
+        width: 400px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+}

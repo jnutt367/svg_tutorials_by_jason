@@ -1,0 +1,1 @@
+gsap.from("svg", { opacity: 0, duration: 3, ease: "bounce" })
