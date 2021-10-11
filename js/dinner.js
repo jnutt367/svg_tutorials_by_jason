@@ -1,8 +1,10 @@
 gsap.from("svg", { opacity: 0, duration: 3, ease: "bounce" })
-
+gsap.to(".top", { marginTop: "20px" })
 let tl = gsap.timeline()
 
 //let doubleBoxLift = gsap.timeline(  )
-.to(".wine", { x: -50, y: -210, duration: 3 })
+.to("img", { marginTop: "20px" })
+    .to(".wine", { x: -50, y: -210, duration: 3 })
     .to(".dine", { x: 50, y: -240, duration: 2 }, 5)
-    .to(".special-times", { x: -50, y: -700, duration: 3, ease: "elastic" }, 7)
+    .to(".special-times", { x: -50, y: -700, duration: 3, ease: "back" }, 5)
+    .to(".raised", { zIndex: 10 })
