@@ -7,7 +7,7 @@ sections.forEach((element, index) => {
             scrollTrigger: {
                 trigger: element,
                 start: "top 80%",
-                toggleActions: "play none none reverse"
+                toggleActions: "restart none none reverse"
             }
         })
         .from(items, { xPercent: gsap.utils.wrap([distance, -distance]), duration: 2 })
