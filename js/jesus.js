@@ -1,0 +1,11 @@
+gsap.from(".top-container", { x: -1400, ease: "back", duration: 12 })
+gsap.fromTo(".header", { opacity: 0 }, { zIndex: 10, duration: 7, opacity: 0.7 }, 12)
+gsap.from(".content", { opacity: 0, y: 4000, duration: 14 }, 12)
+
+gsap.to(".header", { background: "black", opacity: 0 }, 10)
+gsap.to("body", { backgroundImage: "url(svg/our-earth-lake.gif)" }, 22)
+gsap.to(".jesus", { fontSize: "40px", color: "gold" })
+gsap.to("body", { backgroundImage: "url(svg/god-pray.gif)" }, 32)
+gsap.to("body", { backgroundImage: "url(svg/jesus-god.gif)" }, 42)
+gsap.to("body", { backgroundImage: "url(svg/RegalBasicDamselfly-size.gif)" }, 52)
+gsap.to("body", { backgroundImage: "url(svg/kingdom.gif)" }, 62)
