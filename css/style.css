@@ -16,6 +16,30 @@ h1 {
     align-items: center;
 }
 
+.wine {
+    margin-left: 2rem;
+    width: 600px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.dine {
+    margin-left: 2rem;
+    width: 600px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.special-times {
+    margin-left: 2rem;
+    width: 600px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
 @media (max-width:769px) {
     body {
         background-repeat: repeat;
