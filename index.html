@@ -99,6 +99,33 @@
         .riverdetroit {
             background-image: url(svg/pexels-pixabay-tree-of-life.jpeg);
         }
+        /* small screen */
+        
+        @media only screen and (max-width: 600px) {
+            .cols-2 {
+                flex-direction: column;
+            }
+            .cols-2:nth-of-type(odd) {
+                flex-direction: column;
+            }
+            .cols-2 h1 {
+                margin: 0;
+            }
+            .cols-2 .item {
+                width: 100%;
+                margin-bottom: 1em;
+                flex: 1;
+            }
+            .cols-2 .item.photoHolder {
+                padding: 0;
+            }
+            .cols-2 .item:last-of-type {
+                margin-bottom: 0;
+            }
+            .photo {
+                min-height: 40vh;
+            }
+        }
     </style>
 </head>
 
