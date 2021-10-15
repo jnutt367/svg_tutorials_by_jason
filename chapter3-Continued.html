@@ -56,13 +56,18 @@
         }
         
         ul {
-            list-style-type: lower-greek;
+            display: flex;
+            flex-direction: flex-start;
+            margin: 2rem;
+            list-style-type: none;
         }
         
         ul li a {
-            display: flex;
+            width: 100px;
             padding: 15px;
+            padding-right: 2rem;
             border: 1px solid aqua;
+            margin: 10px;
         }
         
         .cols-2 {
@@ -139,6 +144,12 @@
             }
             .photo {
                 min-height: 40vh;
+            }
+            ul {
+                flex-direction: column;
+            }
+            ul li {
+                margin: 20px;
             }
         }
     </style>

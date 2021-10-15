@@ -44,13 +44,18 @@
         }
         
         ul {
-            list-style-type: lower-greek;
+            display: flex;
+            flex-direction: flex-start;
+            margin: 2rem;
+            list-style-type: none;
         }
         
         ul li a {
-            display: flex;
+            width: 100px;
             padding: 15px;
+            padding-right: 2rem;
             border: 1px solid aqua;
+            margin: 10px;
         }
         
         .fullScreen {
@@ -140,6 +145,12 @@
             .photo {
                 min-height: 40vh;
             }
+            ul {
+                flex-direction: column;
+            }
+            ul li {
+                margin: 20px;
+            }
         }
     </style>
 </head>
@@ -147,9 +158,10 @@
 
 <body class="container">
     <h2>SCROLL DOWN FOR TRUTH</h2>
-    <h2>The Book of John</h2>
-    <h2>Made digital and animated by Jason Nutt a disciple of Jesus Christ</h2>
+    <h2>The Book of John Chapter 1 continued</h2>
+    <h2>Made digitally animated by Jason Nutt a disciple of Jesus Christ</h2>
     <div class="main">
+
 
         <!--<a href="new.html">Stefanos a place for everything!</a>-->
         <div class="fullScreen">
@@ -238,6 +250,7 @@
             <li><a href="index.html">1</a></li>
             <li><a href="chapter2.html">2</a></li>
             <li><a href="chapter3.html">3</a></li>
+            <li><a href="chapter3-Continued.html">3 Cont...</a></li>
         </ul>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js" integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q==" crossorigin="anonymous" referrerpolicy="no-referrer">
