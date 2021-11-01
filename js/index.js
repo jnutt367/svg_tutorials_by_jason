@@ -1,5 +1,5 @@
 gsap.from(".h2", { opacity: 0, scale: 2, duration: 2 }, 2)
-gsap.to(".h2", { opacity: 0.7, scale: 1.05, duration: 2, color: "black", backgroundColor: "aqua" }, 4)
+gsap.to(".h2", { opacity: 0.7, scale: 1.05, duration: 2, color: "black", backgroundColor: "aqua", borderRadius: "50" }, 4)
 const sections = gsap.utils.toArray(".cols-2")
     //important to do this BEFORE ScrollTriggers are created
 ScrollTrigger.saveStyles(".item, .item div")
