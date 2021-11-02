@@ -14,19 +14,19 @@ ScrollTrigger.matchMedia({
             let distance = (index % 2 == 0) ? 100 : -100
             let tl = gsap.timeline({ paused: true })
 
-            tl.from(items, { duration: 0.5, xPercent: gsap.utils.wrap([-distance, distance]) })
+            tl.from(items, { duration: 2, ease: "back", xPercent: gsap.utils.wrap([-distance, distance]) })
             tl.from(items, { opacity: 0, duration: 0.3 }, 0)
 
             ScrollTrigger.create({
 
                 trigger: element,
-                start: "top 80%",
+                start: "top 40%",
                 onEnter: () => tl.play()
             })
 
             ScrollTrigger.create({
                 trigger: element,
-                start: "top 100%",
+                start: "top 80%",
                 onLeaveBack: () => tl.pause(0)
             })
         })
